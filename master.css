@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: peachpuff;
+    width: 100%;
+    padding: 10px 200px;
+    display: flex;
+    z-index: 999;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.0em;
+    font-weight: 300 ;
+
+}
+
+.navigation a{
+    text-decoration: none;
+    color: purple;
+    font-size: 1.0em;
+    font-weight: 300;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: red;
+}
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: url(7d64efc9d4002deeae2b832c68748ef0.jpg) no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    background-attachment: fixed;
+}
+
+.social-icons{
+    padding-right: 100px ;
+    justify-content: space-between;
+}
+.main h2{
+    color: black;
+    font-size: 3em;
+    font-style: italic;
+    font-weight: 500;
+    align-items: center;
+
+}
+.main h3{
+    color: black;
+    font-size: 1.3em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-style: oblique;
+}
+
+.main-btn{
+    color: whitesmoke;
+    background-color: purple;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 400;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: 0.5s ease;
+}
+
+.main-btn:hover{
+    background-color: rebeccapurple;
+    transform: scale(1.1);
+}
+
+.social-icons a{
+    color: black;
+    font-size: 1.4em;
+    padding-right: 20px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: purple;
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 20.25em;
+    box-shadow: 0 5px 20px rgba(1 1 1 / 100%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    transition: 0.5s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: palevioletred;
+    font-size: 5em;
+    text-align: center;
+}
+.info h3{
+    color: purple;
+    font-size: 0.9em;
+    font-weight: 600;
+    margin: 10px;
+}
+.info{
+    text-align: center;
+}
+.info p{
+    font-size: 0.9em;
+}
+
+.ti{
+    display: flex;
+    justify-content: center;
+    color: purple;
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.abo{
+    color: black;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 15px;
+    padding: 20px;
+}
+
+.contents{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cardd {
+    background-color: rgb(255, 255, 255);
+    width: 20.25em;
+    box-shadow: 0 5px 20px rgba(1 1 1 / 100%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    transition: 0.5s ease;
+}
+
+.cardd:hover{
+    transform: scale(1.1);
+}
+.iconn{
+    color: palevioletred;
+    font-size: 5em;
+    text-align: center;
+}
+.evv h3{
+    color: purple;
+    font-size: 0.9em;
+    font-weight: 600;
+    margin: 10px;
+}
+.evv{
+    text-align: center;
+}
+.tee{
+    display: flex;
+    justify-content: center;
+    color: purple;
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.contentss{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cardds {
+    background-color: rgb(255, 255, 255);
+    width: 20.25em;
+    box-shadow: 0 5px 20px rgba(1 1 1 / 100%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    transition: 0.5s ease;
+}
+
+.cardds:hover{
+    transform: scale(1.1);
+}
+.iconns{
+    color: palevioletred;
+    font-size: 5em;
+    text-align: center;
+}
+.con h3{
+    color: purple;
+    font-size: 0.9em;
+    font-weight: 600;
+    margin: 10px;
+}
+.con{
+    text-align: center;
+}
